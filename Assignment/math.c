@@ -56,3 +56,16 @@ int math(int num1, int num2, char Operator){
 _Bool getNeedsDecimal(void){
     return needsDecimal;
 }
+/**
+*Getter for the decimal variable
+*
+*/
+double getDecimal(void){
+	return decimal;
+}
+/**
+* function to reset the needsDecimal variable to 0
+*/
+void resetNeedsdecimal(void){
+	needsDecimal=0;
+}
